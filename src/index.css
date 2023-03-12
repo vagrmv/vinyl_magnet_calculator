@@ -1,0 +1,40 @@
+body {
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    /* margin: 0 auto; */
+}
+
+.title {
+    text-align: center;
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.labels, .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+}
